@@ -20,14 +20,14 @@
                     message = "Champions!"; 
                     break;
                 
-                case (rank <= "2nd"):
+                case (rank === "2nd"):
                     message = "Second placer!"; 
                     break;
 
-                case (rank <= "3rd"):
+                case (rank === "3rd"):
                     message = "Third placer!"; break;
 
-                case (rank <= "4th"):
+                case (rank === "4th"):
                     message = "Fourth placer!"; break;
                 default: 
                     message = "Rank could not be detected.";
